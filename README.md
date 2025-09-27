@@ -49,7 +49,7 @@ pip install pandas python-dateutil
 
 ## 🚀 How to Run
 
-### HW1 — Vacation Package
+### 1 — Vacation Package
 **Goal:** Abstract base class `VacationPackage` with two subclasses `AdventurePackage` and `RelaxationPackage`.  
 **Run:**
 ```bash
@@ -68,7 +68,7 @@ Spa Services: Massage, Yoga
 
 ---
 
-### HW2 — Hotel vs Tour Packages
+### 2 — Hotel vs Tour Packages
 **Goal:** Abstract base `TravelPackage` with two implementations — `HotelPackage` and `TourPackage`.  
 `HotelPackage` multiplies nights × cost_per_night.  
 `TourPackage` multiplies days × cost_per_day then applies **10% discount** in display.
@@ -85,7 +85,7 @@ Total Cost for Tour package After 10% discount : $630.00
 
 ---
 
-### HW3 — Patients & Doctors
+### 3 — Patients & Doctors
 **Goal:** Inheritance from base `Person(name, age)` with subclasses `Patient(medical_history)` and `Doctor(specialty)`.  
 `get_details()` returns a formatted string; a helper prints for both.
 
